@@ -1,5 +1,5 @@
 
-import java.util.*;
+
 class ArrayToReducedForm
 {
 	/*Sorting array*/		
@@ -50,13 +50,8 @@ class ArrayToReducedForm
 	{
 		Scanner takeInput = new Scanner(System.in);
 		System.out.print("Enter the length of array to be reduced: ");
-		int lengthOfArrayToBeReduced = takeInput.nextInt();
-		int arrayToBeReduced[] = new int[lengthOfArrayToBeReduced];
-		System.out.println("Enter the array elements");
-		for(int index=0; index < lengthOfArrayToBeReduced; index++)
-		{
-			arrayToBeReduced[index] = takeInput.nextInt();
-		}
+		int lengthOfArrayToBeReduced = 5;
+		int arrayToBeReduced[] = {10, 5, 15, 20 30};
 		System.out.println("Given Array is ");
         	printArray(arrayToBeReduced, lengthOfArrayToBeReduced);
         	convertToReducedForm(arrayToBeReduced, lengthOfArrayToBeReduced);
