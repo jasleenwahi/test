@@ -49,8 +49,8 @@ class ArrayToReducedForm
 	public static void main(String args[])
 	{
 		System.out.print("Enter the length of array to be reduced: ");
-		int lengthOfArrayToBeReduced = 6;
-		int arrayToBeReduced[] = {10, 5, 15, 20, 30, 35};
+		int lengthOfArrayToBeReduced = 5;
+		int arrayToBeReduced[] = {10, 5, 15, 20, 30};
 		System.out.println("Given Array is ");
         	printArray(arrayToBeReduced, lengthOfArrayToBeReduced);
         	convertToReducedForm(arrayToBeReduced, lengthOfArrayToBeReduced);
